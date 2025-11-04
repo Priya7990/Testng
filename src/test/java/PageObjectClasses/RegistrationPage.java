@@ -13,7 +13,7 @@ public class RegistrationPage extends basePage{
 		public RegistrationPage(WebDriver driver) {		
 			super(driver);
 		}
-	
+	//
 		
 		@FindBy(xpath="//input[@name='lastname']")
 		private WebElement firstnameInput;
